@@ -5,10 +5,10 @@ const Detail= () => {
       <div className="relative bg-white p-6 rounded-lg shadow-lg">
        
      
-        <hr className="w-full  bg-gray-400  "/>
+       
          {/* Left Section */}
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6 ">
-          <div className="mb-4 border-b border-blue-500 pb-2">
+          <div className="mb-4  pb-2 flex flex-col gap-2">
             <h2 className=" font-semibold">
               Event: <span className="font-normal">Learning to Learn</span>
             </h2>
@@ -104,28 +104,36 @@ const Detail= () => {
           </div>
 
           {/* Speaker Card */}
-          <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/89ea/d5f3/b62530b3b9822b650b5e07c8ba095b98?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VFJWQV7sR9vQuKrQBcqBUhN2Rx-EWNAFnLf2FVNsDlqEsDVGumlC0~zSoAPo5J15AvEy20g2F1rErA3DG70tfb6mRWUV1fVId3n8MgSJDZlFn3J0eVOsrS7EN6sx8w0uLv4n3pn55nrN6qQWLVZn1PdCIMn9uFgOligl~0BesJVPqgJN4qUkZAYKUXQbeyEt5Pt4Gnrcaefhxyc8WiQ2UIWAO6JvsZ7m35UQdxghiw5f8m0jhbmKKBH-sQMAbWjaVqqg3o-d8N8rqsyjDlrMoAJDXu75isEdotROHA2Z-Slsbr1L~HXNnUGrm6NKJk8JiKyZRkroQKOYOXDW4KzL-A__"
-              alt="Speaker"
-              className="w-20 h-20 rounded-full mr-4"
-            />
-            <div>
+          <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-between lg:mx-12">
+           <div className=" flex flex-col items-center justify-center">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/89ea/d5f3/b62530b3b9822b650b5e07c8ba095b98?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VFJWQV7sR9vQuKrQBcqBUhN2Rx-EWNAFnLf2FVNsDlqEsDVGumlC0~zSoAPo5J15AvEy20g2F1rErA3DG70tfb6mRWUV1fVId3n8MgSJDZlFn3J0eVOsrS7EN6sx8w0uLv4n3pn55nrN6qQWLVZn1PdCIMn9uFgOligl~0BesJVPqgJN4qUkZAYKUXQbeyEt5Pt4Gnrcaefhxyc8WiQ2UIWAO6JvsZ7m35UQdxghiw5f8m0jhbmKKBH-sQMAbWjaVqqg3o-d8N8rqsyjDlrMoAJDXu75isEdotROHA2Z-Slsbr1L~HXNnUGrm6NKJk8JiKyZRkroQKOYOXDW4KzL-A__"
+                alt="Speaker"
+                className="w-24 h-24 rounded-full mr-4"
+              />
               <h4 className="font-bold text-blue-600">Chad Pitt</h4>
               <p className="text-xs text-gray-500">Young Researcher</p>
               <p className="text-xs text-gray-500">Grade VI</p>
-              <p className="text-xs text-gray-600 mt-1">
+           </div>
+           
+             
+              <p className="text-sm text-gray-600 mt-1 w-3/4">
                 Lorem ipsum dolor sit amet, sit a consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, sit a consectetur adipiscing elit
+                Lorem ipsum dolor sit amet, sit a consectetur adipiscing elit
+                
                 Lorem ipsum dolor sit amet...
                 <span className="text-blue-500 font-semibold cursor-pointer">
                   Know more
                 </span>
               </p>
+             
             </div>
           </div>
         </div>
+        <hr className="w-full  bg-gray-400 mt-4 "/>
       </div>
-      </div>
+     
   );
 };
 

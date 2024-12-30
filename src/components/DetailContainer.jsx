@@ -3,8 +3,8 @@ import Detail from "../Detail"
 
 function DetailContainer() {
   return (
-    <div className="mx-10 rounded-lg mt-4 ">
-    <div className="border border-gray-400 grid grid-cols-3 rounded-t-lg">
+    <div className="mx-10 rounded-lg my-4 shadow-md ">
+    <div className="border border-gray-300 grid grid-cols-3 rounded-t-lg">
         <span className="relative w-80  ">
             <p className="w-full font-semibold text-center">Classes</p>
             <hr className="absolute -top-1 left-80 transform -translate-x-1/2 w-0.2 h-8 border-r border-gray-500 -rotate-45"/>
@@ -22,6 +22,10 @@ function DetailContainer() {
           
         </span>
     </div>
+    <div className="mx-6">
+    <hr className="w-full mt-4  bg-gray-400  bg-black"/>
+    </div>
+    <Detail/>
     <Detail/>
     </div>
   )
